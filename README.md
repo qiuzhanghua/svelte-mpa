@@ -1,26 +1,21 @@
-# Svelte + Vite + MPA
+## Svelte + Vite + MPA
 
-This is a simple MPA Application, but it does not work, would vitejs support svelte+MPA?
+Simple MPA Application.
 
-
-vite.config.js
-```javascript
-export default defineConfig({
-	resolve: {
-		alias: [{find: "@", replacement: "./src"}],
-	},
-	plugins: [svelte()],
-	build: {
-		rollupOptions: {
-			input: {
-				home: path.resolve('src/main.js'),
-				admin: '@/admin/main.js',
-			}
-		}
-	}
-})
-
+### Dev
+```bash
+yarn
+yarn dev
 ```
+Visit:
 
-1. Why MPA not work?
-2. Why alias not work?
+http://localhost:3000
+
+and
+
+http://localhost:3000/admin
+
+### Build
+```bash
+yarn build
+```

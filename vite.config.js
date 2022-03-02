@@ -1,6 +1,6 @@
-import path from 'path'
 import {defineConfig} from 'vite'
 import {svelte} from '@sveltejs/vite-plugin-svelte'
+import {resolve} from 'path'
 
 export default defineConfig({
 	resolve: {
@@ -10,8 +10,8 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			input: {
-				home: path.resolve('src/main.js'),
-				admin: '@/admin/main.js',
+				home: resolve('index.html'),
+				admin: resolve('admin/index.html'),
 			}
 		}
 	}

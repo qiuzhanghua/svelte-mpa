@@ -1,6 +1,7 @@
 {
   "name": "svelte-mpa",
   "private": true,
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.38",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.39",
     "svelte": "^3.46.4",
     "vite": "^2.8.6"
   }

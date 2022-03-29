@@ -10,7 +10,11 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.39",
+    "attractions": "^3.7.0",
+    "postcss": "^8.4.12",
+    "sass": "^1.49.9",
     "svelte": "^3.46.4",
+    "svelte-preprocess": "^4.10.4",
     "vite": "^2.8.6"
   }
 }

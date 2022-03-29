@@ -13,7 +13,7 @@ http://localhost:3000
 
 and
 
-http://localhost:3000/admin
+http://localhost:3000/admin/
 
 ### Build
 ```bash

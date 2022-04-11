@@ -10,13 +10,13 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/vite-plugin-svelte@^1.0.0-next.39":
-  version "1.0.0-next.40"
-  resolved "https://registry.npmmirror.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.40.tgz#8f39cd5fa5400697bef1cefe112e77f08b90c23e"
-  integrity sha512-DtXF01fYGEJkbC7GntU/7jaq9M1SwyyNCkbDA+cfQSXRpm3H7zbu0M80wSQBSpntdd+hgSdxKCxv4GgX6/zI6w==
+"@sveltejs/vite-plugin-svelte@^1.0.0-next.41":
+  version "1.0.0-next.41"
+  resolved "https://registry.npmmirror.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.41.tgz#4778502af8a23c65ceaa0b5225ed722d3ad6b5e0"
+  integrity sha512-2kZ49mpi/YW1PIPvKaJNSSwIFgmw9QUf1+yaNa4U8yJD6AsfSHXAU3goscWbi1jfWnSg2PhvwAf+bvLCdp2F9g==
   dependencies:
     "@rollup/pluginutils" "^4.2.0"
-    debug "^4.3.3"
+    debug "^4.3.4"
     kleur "^4.1.4"
     magic-string "^0.26.1"
     svelte-hmr "^0.14.11"
@@ -101,7 +101,7 @@ concat-map@0.0.1:
   resolved "https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-debug@^4.3.3:
+debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -485,10 +485,10 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-sass@^1.49.9:
-  version "1.49.9"
-  resolved "https://registry.npmmirror.com/sass/-/sass-1.49.9.tgz#b15a189ecb0ca9e24634bae5d1ebc191809712f9"
-  integrity sha512-YlYWkkHP9fbwaFRZQRXgDi3mXZShslVmmo+FVK3kHLUELHHEYrCmL1x6IUjC7wLS6VuJSAFXRQS/DxdsC4xL1A==
+sass@^1.50.0:
+  version "1.50.0"
+  resolved "https://registry.npmmirror.com/sass/-/sass-1.50.0.tgz#3e407e2ebc53b12f1e35ce45efb226ea6063c7c8"
+  integrity sha512-cLsD6MEZ5URXHStxApajEh7gW189kkjn4Rc8DQweMyF+o5HF5nfEz8QYLMlPsTOD88DknatTmBWkOcw5/LnJLQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -531,10 +531,10 @@ svelte-hmr@^0.14.11:
   resolved "https://registry.npmmirror.com/svelte-hmr/-/svelte-hmr-0.14.11.tgz#63d532dc9c2c849ab708592f034765fa2502e568"
   integrity sha512-R9CVfX6DXxW1Kn45Jtmx+yUe+sPhrbYSUp7TkzbW0jI5fVPn6lsNG9NEs5dFg5qRhFNAoVdRw5qQDLALNKhwbQ==
 
-svelte-preprocess@^4.10.4:
-  version "4.10.4"
-  resolved "https://registry.npmmirror.com/svelte-preprocess/-/svelte-preprocess-4.10.4.tgz#308a410266bfc55b4e608da8d552b63580141260"
-  integrity sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==
+svelte-preprocess@^4.10.5:
+  version "4.10.5"
+  resolved "https://registry.npmmirror.com/svelte-preprocess/-/svelte-preprocess-4.10.5.tgz#c4d20fd67b92559e5cac80281154c813c1c17353"
+  integrity sha512-VKXPRScCzAZqeBZOGq4LLwtNrAu++mVn7XvQox3eFDV7Ciq0Lg70Q8QWjH9iXF7J+pMlXhPsSFwpCb2E+hoeyA==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
@@ -543,10 +543,10 @@ svelte-preprocess@^4.10.4:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.46.4:
-  version "3.46.4"
-  resolved "https://registry.npmmirror.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
-  integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
+svelte@^3.47.0:
+  version "3.47.0"
+  resolved "https://registry.npmmirror.com/svelte/-/svelte-3.47.0.tgz#ba46fe4aea99fc650d6939c215cd4694f5325a19"
+  integrity sha512-4JaJp3HEoTCGARRWZQIZDUanhYv0iyoHikklVHVLH9xFE9db22g4TDv7CPeNA8HD1JgjXI1vlhR1JZvvhaTu2Q==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
